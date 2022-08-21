@@ -1,34 +1,29 @@
+# Resource Links
+
+This readme contains many urls to some great resources that will help you along your journey as a developer.
+
 - Coding Basics
 
 [JavaScript Cheat Sheet](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)
 
--MDN Reference Webpage
-https://developer.mozilla.org/en-US/docs/Web#web_technology_references
+[MDN Reference Webpage](https://developer.mozilla.org/en-US/docs/Web#web_technology_references)
 
--- Software Development Tools
+- Software Development Tools
 
--Entity Relational Diagrams(ERDs)
-https://app.diagrams.net/
+[Entity Relational Diagrams](https://app.diagrams.net/)
 
--Wireframe/Sketching Tool
-https://excalidraw.com/
+[Wireframe/Sketching Tool](https://excalidraw.com/)
 
--Favicon Generator
-https://favicon.io/favicon-converter/
+[Favicon Generator](https://favicon.io/favicon-converter/)
 
--Google Fonts and Icons Library
-https://fonts.google.com/?icon.style=Two+tone&icon.set=Material+Icons
+[Google Fonts and Icons Library](https://fonts.google.com/?icon.style=Two+tone&icon.set=Material+Icons)
 
--- Interview Prep/Coding Practice
+- Interview Prep/Coding Practice
 
--Neetcode Algorithm Practice
-https://neetcode.io/
+[Neetcode Algorithm Practice](https://neetcode.io/)
 
--Leetcode ALgorithm Practice
-https://leetcode.com/
+[Leetcode ALgorithm Practice](https://leetcode.com/)
 
--Interview Prep and Coding Practice
-https://www.hackerrank.com/
+[Interview Prep and Coding Practice](https://www.hackerrank.com/)
 
--SQL Practice
-https://www.sql-practice.com/
+[SQL Practice](https://www.sql-practice.com/)
