@@ -1,7 +1,6 @@
 -- Coding Basics
 
--JavaScript Cheat Sheet
-https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf
+[JavaScript Cheat Sheet](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)
 
 -MDN Reference Webpage
 https://developer.mozilla.org/en-US/docs/Web#web_technology_references
@@ -10,6 +9,9 @@ https://developer.mozilla.org/en-US/docs/Web#web_technology_references
 
 -Entity Relational Diagrams(ERDs)
 https://app.diagrams.net/
+
+-Wireframe/Sketching Tool
+https://excalidraw.com/
 
 -Favicon Generator
 https://favicon.io/favicon-converter/
