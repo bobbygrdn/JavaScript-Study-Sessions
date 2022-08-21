@@ -6,11 +6,15 @@ This readme contains many urls to some great resources that will help you along 
 
 [JavaScript Cheat Sheet](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)
 
+[overapi.com](https://overapi.com/)
+
 [MDN Reference Webpage](https://developer.mozilla.org/en-US/docs/Web#web_technology_references)
 
 [Stackoverflow](https://stackoverflow.com/)
 
 [w3schools](https://www.w3schools.com/)
+
+[Regex Generator](https://regexr.com/)
 
 - Software Development Tools
 
