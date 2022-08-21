@@ -2,11 +2,15 @@
 
 This readme contains many urls to some great resources that will help you along your journey as a developer.
 
-- Coding Basics
+- Coding Basics/Research
 
 [JavaScript Cheat Sheet](https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf)
 
 [MDN Reference Webpage](https://developer.mozilla.org/en-US/docs/Web#web_technology_references)
+
+[Stackoverflow](https://stackoverflow.com/)
+
+[w3schools](https://www.w3schools.com/)
 
 - Software Development Tools
 
@@ -23,6 +27,8 @@ This readme contains many urls to some great resources that will help you along 
 [Neetcode Algorithm Practice](https://neetcode.io/)
 
 [Leetcode ALgorithm Practice](https://leetcode.com/)
+
+[Algorithm Visualizer](https://algorithm-visualizer.org/)
 
 [Interview Prep and Coding Practice](https://www.hackerrank.com/)
 
