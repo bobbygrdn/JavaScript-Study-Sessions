@@ -408,47 +408,126 @@
 
 // Conditionals
 
+    const numvar = 10
+    // if statement
+        if(numvar > 6) {
+            // console.log('Its higher!!') // -> numvar is higher than 6 so Its higher will console log
+        }
+
+    // if else statement
+        if(numvar > 15) {
+            // console.log('Its higher!!') // -> numvar is higher than 6 so Its higher will console log
+        } else {
+            // console.log('Its not high enough!!') // -> numvar is higher than 6 so this will not console log
+        }
+
+    // else if statement
+
+        if(numvar > 15) {
+            // console.log('This is too high!!') // -> numvar is less than 15 so this will not concole log
+        } else if(numvar < 12) {
+            // console.log('This isnt high enough') // -> numvar is less than 12 so This isnt high enough will console log
+        } else {
+            // console.log('This is just right') // -> numvar is not in between 12 and 15 so this will not console log
+        }
+
 // Basic Functions
 
     // Inputs/Parameters
+        const someNamesArr = ['Robert', 'George', 'Samantha', 'Tom']
+        // Input or Argument (The passed in value used when invoking/ calling a function)
+            function intros(arr) {
+                for(let i = 0; i < arr.length; i++) {
+                    console.log('Hello my name is ' + arr[i])
+                }
+            }
+            // intros(someNamesArr) // -> This line is calling the intros function using someNamesArr as an input
 
+        // Parameter
+            function newIntros(arr) { // -> This function is being built using a parameter that detects an input array
+                for(let i = 0; i < arr.length; i++) {
+                    console.log('Hello my name is ' + arr[i])
+                }
+            }
+            // newIntros(someNamesArr)
+
+    // Layout (Basic syntax of a function)
+        function basicFunction(parameters) {
+            // Code using the parameter(s)
+            return // -> return statement is used to return the result or end product of a function
+        }
+
+    // Invoking/Calling (Terminology used to describe the process of using a function)
+        function anotherFunction() {
+            console.log('My first function!')
+        }
+        // anotherFunction() // -> This line is calling the anotherFunction to be used
+
+    
 // Methods
 
     // String Methods
+        const str1 = 'Hello'
+        const str2 = 'there!'
+        // String.concat() // -> Used to combine multiple strings together
+            // console.log(str1.concat(' ', str2)) // -> console logs Hello there!
 
-        // String.concat()
+        // String.indexOf() // -> Find the index of the given value inside the string the method is called upon
+            // console.log(str1.indexOf('e')) // -> console logs 1 since it is the index of e in str1
+            // console.log(str2.indexOf('r')) // -> console logs 3 since it is the index of r in str2
 
-        // String.indexOf()
+        // String.split() // -> Splits the string into substrings based on the input used
+            // console.log(str1.split('')) // -> console logs an array of substrings of each letter
+            // console.log(str2.split('e')) // -> console logs an array of substrings that are not equal to e
 
-        // String.split()
+        // String.toLowerCase() // -> Changes any uppercase letters in the string to lowercase
+            // console.log(str1.toLowerCase()) // -> console logs str1 in a total lowercase format 
+            // console.log(str2.toLowerCase()) // -> console logs str2 in a total lowercase format 
 
-        // String.toLowerCase()
-
-        // String.toUpperCase()
+        // String.toUpperCase() // -> Changes any lowercase letters in the string to lowercase
+            // console.log(str1.toUpperCase()) // -> console logs str1 in a total uppercase format 
+            // console.log(str2.toUpperCase()) // -> console logs str2 in a total uppercase format 
 
     // Array Methods
 
-        // Array.unshift()
+        const numbersArray = [45,68,78,35,48]
+        // Array.unshift() // -> Adds new element(s) to the front an the array
+            numbersArray.unshift('x', 89)
+            // console.log(numbersArray) // -> console logs ['x', 89,45,68,78,35,48] 'x' and 89 were added
 
-        // Array.shift()
+        // Array.shift() // -> removes element(s) from front of an array
+            numbersArray.shift()
+            // console.log(numbersArray) // -> console logs [89,45,68,78,35,48] 'x' was removed
 
-        // Array.push()
+        // Array.push() // -> adds element(s) to end of an array
+            numbersArray.push('Hello world')
+            // console.log(numbersArray) // -> console logs [89,45,68,78,35,48, 'Hello world']
 
-        // Array.pop()
+        // Array.pop() // -> removes element(s) from end of an array
+            numbersArray.pop()
+            // console.log(numbersArray) // -> console logs [89,45,68,78,35,48]
 
-        // Array.slice()
+        // Array.slice() // -> returns a copy of the array based off of the inputs
+            // console.log(numbersArray.slice(2)) // console logs [68,78,35,48] which is the array starting with index 2
 
-        // Array.splice()
+        // Array.splice() // -> removes element(s) and replaces and or adds new element(s)
+            numbersArray.splice(1, 0, 'Hello!')
+            // console.log(numbersArray) // -> console logs [89,'Hello!',45,68,78,35,48]
 
         // Array.filter()
+            // console.log(numbersArray.filter(elem => elem < 60)) // -> Returns an array with numbers that are less than 60
 
-        // Array.map()
+        // Array.map() // -> maps out the array and uses an input method or parameters to change what is in that array
+            // console.log(numbersArray.map(elem => elem * 2))
 
-        // Array.forEach()
+        // Array.forEach() // -> Iterates through an array and uses a method or called function on each element in that array
+            // console.log(numbersArray.forEach(elem => console.log(elem)))
 
-        // Array.reverse()
+        // Array.reverse() // -> Reverses the order of the array
+            // console.log(numbersArray.reverse())
 
-        // Array.toString()
+        // Array.toString() // -> Converts the array into a string
+            // console.log(numbersArray.toString()) // -> Console logs 89,45,68,78,35,48
 
    // Object Methods
 
