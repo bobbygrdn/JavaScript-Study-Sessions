@@ -531,11 +531,28 @@
 
    // Object Methods
 
-        // Object.assign()
+        const thisObject = {
+            A: 23,
+            B: 58,
+            C: 82
+        }
+        // Object.assign() // -> Assigns all properties from an object(s) to a target object
+            const anotherObject = {
+                D: 358,
+                E: 465
+            }
+            const combine = Object.assign(anotherObject, thisObject);
+            // console.log(anotherObject); // -> Returns the combined object { D: 358, E: 465, A: 23, B: 58, C: 82 }
 
-        // Object.keys()
+        // Object.keys() // -> Returns an array of the keys of a given object
+            const objKeys = Object.keys(thisObject);
+            // console.log(objKeys); // -> Returns [ 'A', 'B', 'C' ] which is an array of the keys in the given object  
 
-        // Object.create()
+        // Object.create() // -> Creates a new object using a template object or an empty object
+            const createObject = Object.create(null);
+            const fillObject = Object.create(anotherObject);
+            // console.log(createObject); // -> console logs the blank object created
+            // console.log(fillObject.C); // -> console logs 82 because that is the value of 'C' that was copied from the copied object
 
 // Concatentation
 
