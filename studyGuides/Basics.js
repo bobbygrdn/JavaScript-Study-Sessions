@@ -1,93 +1,4 @@
 //! Basic JavaScript 
-
-// Methods for using JavaScript in HTML
-
-    // Internal
-        // <script type="text/javascript">
-            // JS code goes here
-        // </script>
-    // External
-        // <script src="script.js"></script>
-
-// Comments
-    // -> Single line comment
-    
-    /** Multiple
-     * line
-     * comment
-     */
-
-// Methods for interacting with the terminal
-
-    // console.log() -> Used to log statements to the table. Great for debugging code.
-        // console.log('This is my first console log statement')
-
-    // console.table() -> Used to see data in an organized and digestible manner. Great for objects or JSON
-        // console.table({
-        //     0: 'Name',
-        //     1: 'Age',
-        //     2: 'Gender'
-        // })
-
-        // console.log({
-        //     "orderID": 12345,
-        //     "shopperName": "John Smith",
-        //     "shopperEmail": "johnsmith@example.com",
-        //     "contents": [
-        //       {
-        //         "productID": 34,
-        //         "productName": "SuperWidget",
-        //         "quantity": 1
-        //       },
-        //       {
-        //         "productID": 56,
-        //         "productName": "WonderWidget",
-        //         "quantity": 3
-        //       }
-        //     ],
-        //     "orderCompleted": true
-        //   })
-        // console.table({
-        //     "orderID": 12345,
-        //     "shopperName": "John Smith",
-        //     "shopperEmail": "johnsmith@example.com",
-        //     "contents": [
-        //       {
-        //         "productID": 34,
-        //         "productName": "SuperWidget",
-        //         "quantity": 1
-        //       },
-        //       {
-        //         "productID": 56,
-        //         "productName": "WonderWidget",
-        //         "quantity": 3
-        //       }
-        //     ],
-        //     "orderCompleted": true
-        //   }) 
-
-        // console.assert() -> Used to check a condtional and log statements if the result is false
-            let num = 10;
-        // console.assert(num > 20, "num is greater than 20", {"ErrorCode":'A56498'});
-
-        // console.count() -> Used to count how many times an operation is being completed
-            function loop() {
-                let array = [5,65,7,5,7,4,85,4,85];
-                for (let i = 0; i < array.length; i++) {
-                    console.count("Count");
-                    console.log(array[i])
-                }
-                return array;
-            }
-            // loop()
-
-        // console.error() -> Used to detect errors and log what that error is to the console
-            let num1 = 30, num2 = 57;
-            if (num2 < 50) {
-                // console.log(num2 - num1);
-            } else {
-                // console.error("Number is too big!")
-            }
     
 // Data Types -> Objects, arrays, numbers, strings, booleans, null, and undefined
 
@@ -644,3 +555,6 @@
     // code .
 
     // npm install
+
+
+
