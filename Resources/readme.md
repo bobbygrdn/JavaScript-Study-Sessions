@@ -18,6 +18,8 @@ This readme contains many urls to some great resources that will help you along 
 
 [Cheatography(Coding Cheat Sheets)](https://cheatography.com/davechild/cheat-sheets/html4/)
 
+[MDN Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+
 - Software Development Tools
 
 [Entity Relational Diagrams](https://app.diagrams.net/)
