@@ -16,6 +16,8 @@ This readme contains many urls to some great resources that will help you along 
 
 [Regex Generator](https://regexr.com/)
 
+[Cheatography(Coding Cheat Sheets)](https://cheatography.com/davechild/cheat-sheets/html4/)
+
 - Software Development Tools
 
 [Entity Relational Diagrams](https://app.diagrams.net/)
