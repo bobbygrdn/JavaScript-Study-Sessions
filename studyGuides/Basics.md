@@ -1142,9 +1142,13 @@ npm uninstall express
 #### Repositories (repos)
 
 ```javascript
-Local repos (This will be the local folder that is on your computer which contains all the files and code of the project)
+"Local repo"(
+  "This will be the local folder that is on your computer which contains all the files and code of the project"
+);
 
-Remote repos (This will be the code base that holds all the files, folders and code on the internet using GitHub)
+"Remote repo"(
+  "This will be the code base that holds all the files, folders and code on the internet using GitHub"
+);
 ```
 
 #### Git Commands
