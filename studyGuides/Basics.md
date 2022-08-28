@@ -3,6 +3,9 @@
 Learning the basics is crucial when learning any programming language and to start your career as a developer. Building a solid foundation of knowlege in the fundamentals will help you learn more advanced technologies, frameworks and algorithms in the future.
 This documentation will walk you through the basics of JavaScript, The Command Line Interface(CLI), Git and Github.
 
+### Table of Contents
+[Linking JavaScript](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md##Linking-JavaScript-to-HTML)
+
 ## Linking JavaScript to HTML
 
 ```javascript
