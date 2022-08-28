@@ -3,6 +3,51 @@
 Learning the basics is crucial when learning any programming language and to start your career as a developer. Building a solid foundation of knowlege in the fundamentals will help you learn more advanced technologies, frameworks and algorithms in the future.
 This documentation will walk you through the basics of JavaScript, The Command Line Interface(CLI), Git and Github.
 
+### Table of Contents
+  * [Linking JavaScript to HTML](#linking-javascript-to-html)
+  * [Adding Pseudocode](#adding-pseudocode)
+  * [Methods to interact with the console](#methods-to-interact-with-the-console)
+  * [Data Types](#data-types)
+    + [Primitive Data Types(Passed by value)](#primitive-data-types)
+    + [Non-Primitive Data Types (Passed by reference)](#non-primitive-data-types)
+    + [Variables](#variables)
+      - [Variable Types/Reassignment](#variable-types-reassignment)
+      - [Scope](#scope)
+    + [Operators](#operators)
+    + [Loops](#loops)
+    + [Conditionals (Checks pieces of logic and returns a certain value if that condition is met)](#conditionals--checks-pieces-of-logic-and-returns-a-certain-value-if-that-condition-is-met-)
+    + [Basic Functions](#basic-functions)
+    + [Methods](#methods)
+    + [Concatenation (There are several ways to concat different elements, here are three great methods)](#concatenation--there-are-several-ways-to-concat-different-elements--here-are-three-great-methods-)
+      - [Array.join( ) -> Joins the elements in the given array and turns them into a string](#arrayjoin-------joins-the-elements-in-the-given-array-and-turns-them-into-a-string)
+      - [string.concat() -> Uses a selected string to start with and adds the input element(s)](#stringconcat------uses-a-selected-string-to-start-with-and-adds-the-input-element-s-)
+    + [Statements (Statements are separated by ';' and are usually on seperate lines as well)](#statements--statements-are-separated-by-----and-are-usually-on-seperate-lines-as-well-)
+    + [Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)](#expressions--valid-sets-of-literals--variables--operators-and-expressions-that-evaluate-to-a-single-value-)
+  * [Command Line Interface (CLI) Commands](#command-line-interface--cli--commands)
+      - [ls (list)](#ls--list-)
+      - [cd (Change Directory)](#cd--change-directory-)
+      - [pwd (Print Working Directory)](#pwd--print-working-directory-)
+      - [mv (Move)](#mv--move-)
+      - [cp (Copy)](#cp--copy-)
+      - [touch (Create file)](#touch--create-file-)
+      - [mkdir (Make directory)](#mkdir--make-directory-)
+      - [code .](#code-)
+      - [npm install](#npm-install)
+      - [npm uninstall](#npm-uninstall)
+  * [Git & Github](#git---github)
+      - [Repositories (repos)](#repositories--repos-)
+      - [Git Commands](#git-commands)
+        * [clone (Used to clone remote repos down to your local machine)](#clone--used-to-clone-remote-repos-down-to-your-local-machine-)
+        * [pull (Used to pull down any updates to the remote repo into your local repo)](#pull--used-to-pull-down-any-updates-to-the-remote-repo-into-your-local-repo-)
+        * [push (Used to push changes from your local repo into the remote repo)](#push--used-to-push-changes-from-your-local-repo-into-the-remote-repo-)
+        * [add remote (Used to add a link between your local repo and a remote repo)](#add-remote--used-to-add-a-link-between-your-local-repo-and-a-remote-repo-)
+        * [commit (Used to commit changes from your local repo to be pushed up to the main repo)](#commit--used-to-commit-changes-from-your-local-repo-to-be-pushed-up-to-the-main-repo-)
+        * [branch (Used to interact with the curent branch(s) of your local repo)](#branch--used-to-interact-with-the-curent-branch-s--of-your-local-repo-)
+      - [GitHub Actions (Actions to take on GitHub to interact with remote repos)](#github-actions--actions-to-take-on-github-to-interact-with-remote-repos-)
+        * [Fork (Used to create a fork or copy of the selected remote repo and put that copy into your remote directory)](#fork--used-to-create-a-fork-or-copy-of-the-selected-remote-repo-and-put-that-copy-into-your-remote-directory-)
+        * [Clone (Used to get the remote repo url to clone down onto your local machine)](#clone--used-to-get-the-remote-repo-url-to-clone-down-onto-your-local-machine-)
+        * [Pull request (Used to make a request to update/change information in the main branch from your current branch)](#pull-request--used-to-make-a-request-to-update-change-information-in-the-main-branch-from-your-current-branch-)
+
 ## Linking JavaScript to HTML
 
 ```javascript
@@ -41,7 +86,7 @@ This is how it will look if you link your script in the body tag
 </html>
 ```
 
-## Adding Pseudocode(comments)
+## Adding Pseudocode
 
 ```javascript
 // -> This is used to add single line comments into your code
@@ -128,7 +173,7 @@ Number is too big!
 
 ## Data Types
 
-### Primitive Data Types (Passed by value)
+### Primitive Data Types
 
 Strings (A vaule surrounded by ' ' or " ")
 
@@ -177,7 +222,7 @@ let currentSum = null;
 // The value of currentSum is equal to null which means it has an empty but defined value.
 ```
 
-### Non-Primitive Data Types (Passed by reference)
+### Non-Primitive Data Types
 
 Object Literals (A value to a variable that is surrounded by { } )
 
