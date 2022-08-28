@@ -28,7 +28,7 @@ This documentation will walk you through the basics of JavaScript, The Command L
     + [GitHub Actions (Actions to take on GitHub to interact with remote repos)](#github-actions--actions-to-take-on-github-to-interact-with-remote-repos-)
 
 ## Linking JavaScript to HTML
-
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 ```javascript
 This is how it will look if you put your script in the body tag
 <!DOCTYPE html>
