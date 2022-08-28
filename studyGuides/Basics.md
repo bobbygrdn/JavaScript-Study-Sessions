@@ -255,11 +255,11 @@ numsArray[2]; -> 844
 // The third index of the array which has an index of 2 has a value of 844
 ```
 
-### Variables
+## Variables
 
-#### Variable Types/Reassignment
+### Variable Types/Reassignment
 
-##### var (ES5 Suntax, Mutable)
+#### var (ES5 Suntax, Mutable)
 
 ```javascript
 var name = "Christopher";
@@ -267,7 +267,7 @@ name = "Chris";
 // var can be changed becuase it is a mutable variable assingment type
 ```
 
-##### const (ES6, Used to define variables that should not be changed, Immutable)
+#### const (ES6, Used to define variables that should not be changed, Immutable)
 
 ```javascript
 const lastName = "Robin";
@@ -275,7 +275,7 @@ lastName = "Smith";
 // The value of lastName will still be Robin because const variables are immutable
 ```
 
-##### let (ES6, Most used, Mutable, Block Scoped)
+#### let (ES6, Most used, Mutable, Block Scoped)
 
 ```javascript
 let year = 2022;
@@ -283,9 +283,9 @@ year = 2023;
 // The value of year will be 2023 because let is a mutable variable assignment type
 ```
 
-#### Scope
+### Scope
 
-##### Block Scope (Can only be accessed inside the block they are created in)
+#### Block Scope (Can only be accessed inside the block they are created in)
 
 ```javascript
 const (cannot be accessed outside the block)
@@ -304,7 +304,7 @@ console.log(serial)
 // This will console log A859 because var is not block scoped
 ```
 
-##### Local/Function Scope (Can only be accessed inside the function they are created in)
+#### Local/Function Scope (Can only be accessed inside the function they are created in)
 
 ```javascript
 function test () {
@@ -321,7 +321,7 @@ console.log(test2); -> This will return an error since the let variable is only 
 console.log(test3); -> This will return an error since the var variable is only accessed inside the function
 ```
 
-##### Global Scope
+#### Global Scope
 
 ```javascript
 const age = 31;
@@ -342,9 +342,9 @@ console.log(newString); -> This will console log Scoping! since newString is a g
 console.log(i); -> This will console log 95469 since i is a global variable
 ```
 
-#### Operators
+### Operators
 
-##### Increment Operator (Used to increase a given value. Used in loops and other methods.)
+#### Increment Operator (Used to increase a given value. Used in loops and other methods.)
 
 ```javascript
 'i++' -> Increases i by 1 each time it is called
@@ -359,7 +359,7 @@ for(i = 0; i < nums.length; i++) {
 // We are using the increment operator in this for loop to iterate through a numbers array
 ```
 
-##### Decrement Operator (Used to decrease a given value. Used in loops and other methods.)
+#### Decrement Operator (Used to decrease a given value. Used in loops and other methods.)
 
 ```javascript
 'i--' -> Decreases i by 1 each time it is called
@@ -374,7 +374,7 @@ for(x = nums.length -1; x < 0; x--) {
 // We are using the decrement operator in this for loop to iterate through a numbers array in reverse
 ```
 
-##### Comparison Operators (Used to compare two values.)
+#### Comparison Operators (Used to compare two values.)
 
 ```javascript
 '==' (Equal to)
@@ -410,7 +410,7 @@ for(x = nums.length -1; x < 0; x--) {
 20 <= 22 -> true becasue 20 is less than 22
 ```
 
-##### Logical Operators (Used to check multiple pieces of logic)
+#### Logical Operators (Used to check multiple pieces of logic)
 
 ```javascript
 '&&' (And)
@@ -426,7 +426,7 @@ for(x = nums.length -1; x < 0; x--) {
 !(10 == 10) -> false because the two data types are not equal
 ```
 
-##### Ternary Operator (Used to check logic and return result if true or false)
+#### Ternary Operator (Used to check logic and return result if true or false)
 
 ```javscript
 let personAge = 22;
@@ -438,7 +438,7 @@ let ableToDrive = (ageOfPerson >= 16) ? 'They are too young': 'They are old enou
 // This will return 'They are too young' since ageOfPerson is set to 15
 ```
 
-##### Modulo Operator (Used to find the remainder of two numbers. Great for checking if number is odd or even)
+#### Modulo Operator (Used to find the remainder of two numbers. Great for checking if number is odd or even)
 
 ```javascript
 6 % 3 -> Result should be a remainder of 0 because 6 is divisible by 3, 2 times with 0 remaining
@@ -455,7 +455,7 @@ if(6 % 2 === 0) {
 // This would console log Even number! since 6 can be divided by 2 with no remainders
 ```
 
-##### Assignment Operator (Used to assign values to variables. Can be great for concating strings and computing math logic)
+#### Assignment Operator (Used to assign values to variables. Can be great for concating strings and computing math logic)
 
 ```javscript
 '=' (Basic Assignment)
@@ -492,9 +492,9 @@ g /= o;
 console.log(g) -> console logs 3 because we divided g by o
 ```
 
-#### Loops
+### Loops
 
-##### For loop (Loops over an object or an array and enacts whatever code you input to each element)
+#### For loop (Loops over an object or an array and enacts whatever code you input to each element)
 
 ```javascript
 let numArray = [8845, 87, 9874864, 98746, 15, 68465];
@@ -512,7 +512,7 @@ for (let i = 0; i < numArray.length; i++) {
 68565;
 ```
 
-##### For in (Loops over an object literal and enacts whatever code you input to each element)
+#### For in (Loops over an object literal and enacts whatever code you input to each element)
 
 ```javascript
 let namesObject = {
@@ -533,7 +533,7 @@ Manager: Alicia Romanov
 Manager: Michael Simmons
 ```
 
-##### For of (Loops over an array and enacts whatever code you input to each element)
+#### For of (Loops over an array and enacts whatever code you input to each element)
 
 ```javascript
 let namesArray = ['James Harden','Smith Robbins','Alicia Romanov','Michael Simmons'];
@@ -549,7 +549,7 @@ Manager: Alicia Romanov
 Manager: Michael Simmons
 ```
 
-##### For each (Loops over an array and enacts a given callback function on each element)
+#### For each (Loops over an array and enacts a given callback function on each element)
 
 ```javascript
 let managerArray = ['James Harden','Smith Robbins','Alicia Romanov','Michael Simmons']
@@ -567,7 +567,7 @@ Manager: Alicia Romanov
 Manager: Michael Simmons
 ```
 
-##### While (Performs a certain action while the current condition is being met)
+#### While (Performs a certain action while the current condition is being met)
 
 ```javascript
 let number = 100;
@@ -590,7 +590,7 @@ Still too high!: 9
 Still too high!: 10
 ```
 
-##### Do while (Performs a certain action while the current condition is being met)
+#### Do while (Performs a certain action while the current condition is being met)
 
 ```javascript
 let newNumber = 20;
@@ -615,9 +615,9 @@ Still going: 11
 Still going: 12
 ```
 
-#### Conditionals (Checks pieces of logic and returns a certain value if that condition is met)
+### Conditionals (Checks pieces of logic and returns a certain value if that condition is met)
 
-##### If statement
+#### If statement
 
 ```javascript
 const numvar = 10
@@ -630,7 +630,7 @@ if(numvar > 6) {
 It's higher!!
 ```
 
-##### If else statement
+#### If else statement
 
 ```javascript
 const numvar = 10
@@ -645,7 +645,7 @@ if(numvar > 15) {
 Its not high enough!!
 ```
 
-##### Else if statement
+#### Else if statement
 
 ```javascript
 const numvar = 10
@@ -662,9 +662,9 @@ if(numvar > 15) {
 This isnt high enough
 ```
 
-#### Basic Functions
+### Basic Functions
 
-##### Input/Parameters
+#### Input/Parameters
 
 ```javascript
 Input(s) or Argument(s) (The passed in value(s) used when invoking/calling a function)
@@ -686,7 +686,7 @@ Hello my name is Samantha
 Hello my name is Tom
 ```
 
-##### Parameter(s)
+#### Parameter(s)
 
 ```javascript
 Parameter (The passed in value(s) used when creating the function)
@@ -706,7 +706,7 @@ Hello my name is Samantha
 Hello my name is Tom
 ```
 
-##### Layout
+#### Layout
 
 ```javascript
 function basicFunction(parameter(s)) {
@@ -715,7 +715,7 @@ function basicFunction(parameter(s)) {
 }
 ```
 
-##### Invoking/Calling
+#### Invoking/Calling
 
 ```javascript
 function anotherFunction() {
@@ -725,9 +725,9 @@ function anotherFunction() {
 anotherFunction() -> This line is calling/invoking the anotherFunction to be used
 ```
 
-#### Methods
+### Methods
 
-##### String Methods
+#### String Methods
 
 ```javascript
 concat() -> Used to combine multiple strings together
@@ -778,7 +778,7 @@ console.log(str1.toUpperCase()) -> console logs str1 in a total uppercase format
 console.log(str2.toUpperCase()) -> console logs str2 in a total uppercase format
 ```
 
-##### Array Methods
+#### Array Methods
 
 ```javascript
 unshift() -> Adds new element(s) to the front an the array
@@ -879,7 +879,7 @@ const numbersArray = [45,68,78,35,48]
 console.log(numbersArray.toString()) -> Console logs 89,45,68,78,35,48
 ```
 
-##### Object Methods
+#### Object Methods
 
 ```javscript
 assign() -> Assigns all properties from an object(s) to a target object
@@ -921,9 +921,9 @@ console.log(createObject); -> console logs the blank object created
 console.log(fillObject.C); -> console logs 82 because that is the value of 'C' that was copied from the anotherObject
 ```
 
-#### Concatenation (There are several ways to concat different elements, here are three great methods)
+### Concatenation (There are several ways to concat different elements, here are three great methods)
 
-##### The + Operator (Adds the next element to the previous element using the + or += operator(s)))
+#### The + Operator (Adds the next element to the previous element using the + or += operator(s)))
 
 ```javascript
 const createString = 'Hello' + ' ' + 'World';
@@ -955,7 +955,7 @@ const string2 = string1.concat(' ', 'World');
 console.log(string2); -> console logs Hello World
 ```
 
-#### Statements (Statements are separated by ';' and are usually on seperate lines as well)
+### Statements (Statements are separated by ';' and are usually on seperate lines as well)
 
 ```javascript
 const thirdName = 'George Robbins'; -> Creates a string variable
@@ -970,7 +970,7 @@ const arrayOfNumbers = [5,89,34,777,16]; -> Creates an array of numbers
 arrayOfNumbers.pop(); -> Uses the pop method to remove the last element of the arrayOfNumbers
 ```
 
-#### Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)
+### Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)
 
 ```javascript
 // This single value can be a number, string, or logical value depending on the expression
@@ -986,7 +986,7 @@ which returns a value to concat on to the string
 
 ## Command Line Interface (CLI) Commands
 
-#### ls (list)
+### ls (list)
 
 The ls command tells your terminal that you want to list out all the files and folders in the current directory
 
@@ -997,7 +997,7 @@ Resources/ studyGuides/ sunday-sessions/
 // These are the current folders and files we have in our current directory
 ```
 
-#### cd (Change Directory)
+### cd (Change Directory)
 
 The cd command tells your terminal that you want to change the current directory that you are looking at
 
@@ -1011,7 +1011,7 @@ cd studyGuides
 // This will tell the terminal we want to open up the child directory studyGuides
 ```
 
-#### pwd (Print Working Directory)
+### pwd (Print Working Directory)
 
 Using this command we can see the entire path way for the current directory we are in
 
@@ -1021,7 +1021,7 @@ pwd;
 // Yours could look a bit different depending on your environment and file structure
 ```
 
-#### mv (Move)
+### mv (Move)
 
 This command is used to move files or directories using your terminal
 
@@ -1044,7 +1044,7 @@ mv source_directory path_to_non_existing_directory
 // This will tell your terminal that you are wanting to rename a target directory
 ```
 
-#### cp (Copy)
+### cp (Copy)
 
 This command is used to copy files or directories using your terminal
 
@@ -1064,7 +1064,7 @@ cp source_directory destination_directory
 // This will tell your terminal that you are wanting to copy the source directory and put that copy into the destination directory.
 ```
 
-#### touch (Create file)
+### touch (Create file)
 
 This command is used to create files using your terminal
 
@@ -1078,7 +1078,7 @@ touch index.html
 // This will tell your terminal that you are wanting to create a file names index.html inside the current directory
 ```
 
-#### mkdir (Make directory)
+### mkdir (Make directory)
 
 This command is used to create a directory inside the current directory
 
@@ -1087,7 +1087,7 @@ mkdir directory_name
 // This will tell your terminal that you are wanting to create a directory with the given directory name inside the current directory
 ```
 
-#### code .
+### code .
 
 This command is used to open git repos inside VS Code from your terminal
 
@@ -1097,7 +1097,7 @@ code .
 // If we run code . the current repo should open in VS Code
 ```
 
-#### npm install
+### npm install
 
 This command is used to install modules using node package manager (npm)
 
@@ -1117,7 +1117,7 @@ npm install express
 // This will install the newest version of express.js
 ```
 
-#### npm uninstall
+### npm uninstall
 
 This command is used to uninstall modules using node package manager (npm)
 
@@ -1139,7 +1139,7 @@ npm uninstall express
 
 ## Git & Github
 
-#### Repositories (repos)
+### Repositories (repos)
 
 ```javascript
 Local repo
@@ -1149,9 +1149,9 @@ Remote repo
 // This will be the code base that holds all the files, folders and code on the internet using GitHub
 ```
 
-#### Git Commands
+### Git Commands
 
-##### clone (Used to clone remote repos down to your local machine)
+#### clone (Used to clone remote repos down to your local machine)
 
 ```javascript
 git clone url_name
@@ -1161,14 +1161,14 @@ git clone https://github.com/bobbygrdn/MCSP-Study-Sessions.git
 // This will make a local copy of the current repo onto your local machine
 ```
 
-##### pull (Used to pull down any updates to the remote repo into your local repo)
+#### pull (Used to pull down any updates to the remote repo into your local repo)
 
 ```javascript
 git pull
 // This will tell your terminal to pull the current changes to the remote repo and copy them into your local repo
 ```
 
-##### push (Used to push changes from your local repo into the remote repo)
+#### push (Used to push changes from your local repo into the remote repo)
 
 ```javascript
 git push remote_name branch_name
@@ -1178,7 +1178,7 @@ git push origin main
 // This is a commonly used push command for many remote repos
 ```
 
-##### add remote (Used to add a link between your local repo and a remote repo)
+#### add remote (Used to add a link between your local repo and a remote repo)
 
 ```javascript
 git remote add origin remote_repo_url
@@ -1188,14 +1188,14 @@ git remote -v
 // This will tell your terminal that you want to see all the current remotes that are added to your local repo
 ```
 
-##### commit (Used to commit changes from your local repo to be pushed up to the main repo)
+#### commit (Used to commit changes from your local repo to be pushed up to the main repo)
 
 ```javascript
 git commit -m 'message for your commit'
 // This tells your terminal you want to commit the current changes from your local repo and add a message onto them so they can be pushed up
 ```
 
-##### branch (Used to interact with the curent branch(s) of your local repo)
+#### branch (Used to interact with the curent branch(s) of your local repo)
 
 ```javascript
 Here are some examples of how to use the branch command in your terminal:
@@ -1210,17 +1210,17 @@ git checkout branch_name
 // This will tell your terminal you want to checkout a selected branch using the branch_name
 ```
 
-#### GitHub Actions (Actions to take on GitHub to interact with remote repos)
+### GitHub Actions (Actions to take on GitHub to interact with remote repos)
 
-##### Fork (Used to create a fork or copy of the selected remote repo and put that copy into your remote directory)
+#### Fork (Used to create a fork or copy of the selected remote repo and put that copy into your remote directory)
 
 ![Fork](../studyGuideImages/GitHub-Fork.jpg)
 
-##### Clone (Used to get the remote repo url to clone down onto your local machine)
+#### Clone (Used to get the remote repo url to clone down onto your local machine)
 
 ![Clone](../studyGuideImages/GitHub-Clone.jpg)
 
-##### Pull request (Used to make a request to update/change information in the main branch from your current branch)
+#### Pull request (Used to make a request to update/change information in the main branch from your current branch)
 
 ![PullRequest1](../studyGuideImages/GitHub-PullRequest.jpg)
 ![PullRequest2](../studyGuideImages/GitHub-PullRequest2.jpg)
