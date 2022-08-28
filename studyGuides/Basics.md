@@ -11,7 +11,7 @@ This documentation will walk you through the basics of JavaScript, The Command L
     + [Primitive Data Types](#primitive-data-types)
     + [Non-Primitive Data Types](#non-primitive-data-types)
   * [Variables](#variables)
-    + [Variable Types/Reassignment](#variable-types-reassignment)
+    + [Variable Types-Reassignment](#variable-types-reassignment)
       - [var (ES5 Suntax, Mutable)](#var--es5-suntax--mutable-)
       - [const (ES6, Used to define variables that should not be changed, Immutable)](#const--es6--used-to-define-variables-that-should-not-be-changed--immutable-)
       - [let (ES6, Most used, Mutable, Block Scoped)](#let--es6--most-used--mutable--block-scoped-)
