@@ -1,5 +1,3 @@
-- [Basics](#basics)
-    + [Table of Contents](#table-of-contents)
   * [Linking JavaScript to HTML](#linking-javascript-to-html)
   * [Adding Pseudocode(comments)](#adding-pseudocode-comments-)
   * [Methods to interact with the console](#methods-to-interact-with-the-console)
