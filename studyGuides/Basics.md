@@ -332,7 +332,7 @@ numsArray[2]; -> 844
 
 ## Variables
 
-### Variable Types/Reassignment
+### Variable Types-Reassignment
 
 #### var (ES5 Suntax, Mutable)
 
