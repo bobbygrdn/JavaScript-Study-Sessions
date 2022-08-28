@@ -1218,4 +1218,9 @@ git checkout branch_name
 
 ##### Clone (Used to get the remote repo url to clone down onto your local machine)
 
+![Clone](../studyGuideImages/GitHub-Clone.jpg)
+
 ##### Pull request (Used to make a request to update/change information in the main branch from your current branch)
+
+![PullRequest1](../studyGuideImages/GitHub-PullRequest.jpg)
+![PullRequest2](../studyGuideImages/GitHub-PullRequest2.jpg)
