@@ -66,6 +66,7 @@ This is how it will look if you link your script in the body tag
 ```
 
 ## Adding Pseudocode
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ```javascript
 // -> This is used to add single line comments into your code
@@ -79,6 +80,7 @@ This is how it will look if you link your script in the body tag
 ```
 
 ## Methods to interact with the console
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 console.log( ) -> Used to log statements to the console. Great for debugging code.
 
@@ -151,6 +153,7 @@ Number is too big!
 ```
 
 ## Data Types
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ### Primitive Data Types
 
@@ -280,6 +283,7 @@ numsArray[2]; -> 844
 ```
 
 ## Variables
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ### Variable Types-Reassignment
 
@@ -308,6 +312,7 @@ year = 2023;
 ```
 
 ### Scope
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### Block Scope (Can only be accessed inside the block they are created in)
 
@@ -367,6 +372,7 @@ console.log(i); -> This will console log 95469 since i is a global variable
 ```
 
 ### Operators
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### Increment Operator (Used to increase a given value. Used in loops and other methods.)
 
@@ -517,6 +523,7 @@ console.log(g) -> console logs 3 because we divided g by o
 ```
 
 ### Loops
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### For loop (Loops over an object or an array and enacts whatever code you input to each element)
 
@@ -640,6 +647,7 @@ Still going: 12
 ```
 
 ### Conditionals (Checks pieces of logic and returns a certain value if that condition is met)
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### If statement
 
@@ -687,6 +695,7 @@ This isnt high enough
 ```
 
 ### Basic Functions
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### Input/Parameters
 
@@ -750,6 +759,7 @@ anotherFunction() -> This line is calling/invoking the anotherFunction to be use
 ```
 
 ### Methods
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### String Methods
 
@@ -946,6 +956,7 @@ console.log(fillObject.C); -> console logs 82 because that is the value of 'C' t
 ```
 
 ### Concatenation (There are several ways to concat different elements, here are three great methods)
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### The + Operator (Adds the next element to the previous element using the + or += operator(s)))
 
@@ -980,6 +991,7 @@ console.log(string2); -> console logs Hello World
 ```
 
 ### Statements (Statements are separated by ';' and are usually on seperate lines as well)
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ```javascript
 const thirdName = 'George Robbins'; -> Creates a string variable
@@ -995,6 +1007,7 @@ arrayOfNumbers.pop(); -> Uses the pop method to remove the last element of the a
 ```
 
 ### Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ```javascript
 // This single value can be a number, string, or logical value depending on the expression
@@ -1009,6 +1022,7 @@ which returns a value to concat on to the string
 ```
 
 ## Command Line Interface (CLI) Commands
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ### ls (list)
 
@@ -1162,6 +1176,7 @@ npm uninstall express
 ```
 
 ## Git & Github
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ### Repositories (repos)
 
@@ -1174,6 +1189,7 @@ Remote repo
 ```
 
 ### Git Commands
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### clone (Used to clone remote repos down to your local machine)
 
@@ -1235,6 +1251,7 @@ git checkout branch_name
 ```
 
 ### GitHub Actions (Actions to take on GitHub to interact with remote repos)
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### Fork (Used to create a fork or copy of the selected remote repo and put that copy into your remote directory)
 
