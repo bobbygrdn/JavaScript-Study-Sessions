@@ -181,7 +181,7 @@ Number is too big!
 
 ## Data Types
 
-### Primitive Data Types (Passed by value)
+### Primitive Data Types
 
 Strings (A vaule surrounded by ' ' or " ")
 
@@ -230,7 +230,7 @@ let currentSum = null;
 // The value of currentSum is equal to null which means it has an empty but defined value.
 ```
 
-### Non-Primitive Data Types (Passed by reference)
+### Non-Primitive Data Types
 
 Object Literals (A value to a variable that is surrounded by { } )
 
