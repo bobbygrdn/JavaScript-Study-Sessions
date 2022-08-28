@@ -3,7 +3,8 @@ JavaScript Study Sessions
 
 ### Table of Contents
  * [Resources](https://github.com/bobbygrdn/JavaScript-Study-Sessions/tree/main/Resources)
- * [Study Guides]
+ * Study Guides
+    + [Basics](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md)
 
 ⚡  As new study guides or resources get added, we will update this readme to reflect those changes.
 
