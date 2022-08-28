@@ -5,7 +5,7 @@ This documentation will walk you through the basics of JavaScript, The Command L
 
 ### Table of Contents
   * [Linking JavaScript to HTML](#linking-javascript-to-html)
-  * [Adding Pseudocode(comments)](#adding-pseudocode)
+  * [Adding Pseudocode](#adding-pseudocode)
   * [Methods to interact with the console](#methods-to-interact-with-the-console)
   * [Data Types](#data-types)
     + [Primitive Data Types (Passed by value)](#primitive-data-types--passed-by-value-)
@@ -94,7 +94,7 @@ This is how it will look if you link your script in the body tag
 </html>
 ```
 
-## Adding Pseudocode(comments)
+## Adding Pseudocode
 
 ```javascript
 // -> This is used to add single line comments into your code
