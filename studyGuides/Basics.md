@@ -1214,6 +1214,8 @@ git checkout branch_name
 
 ##### Fork (Used to create a fork or copy of the selected remote repo and put that copy into your remote directory)
 
+![Fork](studyGuideImages\GitHub-Fork.jpg)
+
 ##### Clone (Used to get the remote repo url to clone down onto your local machine)
 
 ##### Pull request (Used to make a request to update/change information in the main branch from your current branch)
