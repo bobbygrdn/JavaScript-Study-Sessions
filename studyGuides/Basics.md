@@ -24,9 +24,9 @@ This documentation will walk you through the basics of JavaScript, The Command L
   - [Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)](#expressions-valid-sets-of-literals-variables-operators-and-expressions-that-evaluate-to-a-single-value)
 - [Command Line Interface (CLI) Commands](#command-line-interface-cli-commands)
 - [Git & Github](#git--github)
-  - [Repositories (repos)](#repositories--repos-)
+  - [Repositories (repos)](#repositories-repos)
   - [Git Commands](#git-commands)
-  - [GitHub Actions (Actions to take on GitHub to interact with remote repos)](#github-actions--actions-to-take-on-github-to-interact-with-remote-repos-)
+  - [GitHub Actions (Actions to take on GitHub to interact with remote repos)](#github-actions-actions-to-take-on-github-to-interact-with-remote-repos)
 
 ## Linking JavaScript to HTML
 
