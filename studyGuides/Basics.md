@@ -16,7 +16,7 @@ This documentation will walk you through the basics of JavaScript, The Command L
   - [Scope](#scope)
   - [Operators](#operators)
   - [Loops](#loops)
-  - [Conditionals (Checks pieces of logic and returns a certain value if that condition is met)](#conditionals--checks-pieces-of-logic-and-returns-a-certain-value-if-that-condition-is-met)
+  - [Conditionals (Checks pieces of logic and returns a certain value if that condition is met)](#conditionals-checks-pieces-of-logic-and-returns-a-certain-value-if-that-condition-is-met)
   - [Basic Functions](#basic-functions)
   - [Methods](#methods)
   - [Concatenation (There are several ways to concat different elements, here are three great methods)](#concatenation--there-are-several-ways-to-concat-different-elements--here-are-three-great-methods-)
