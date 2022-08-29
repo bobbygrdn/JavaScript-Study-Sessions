@@ -41,3 +41,17 @@ This readme contains many urls to some great resources that will help you along 
 [Interview Prep and Coding Practice](https://www.hackerrank.com/)
 
 [SQL Practice](https://www.sql-practice.com/)
+
+- Developer Roadmaps
+
+[JavaScript](https://roadmap.sh/javascript)
+
+[NodeJS](https://roadmap.sh/nodejs)
+
+[ReactJS](https://roadmap.sh/react)
+
+[PostgreSQL](https://roadmap.sh/postgresql-dba)
+
+[Frontend](https://roadmap.sh/frontend)
+
+[Backend](https://roadmap.sh/backend)
