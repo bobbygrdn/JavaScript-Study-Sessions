@@ -6,4 +6,4 @@ Learning the ability to interact with the DOM is an important step to becoming a
 
 ## Document Object Model
 
-##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#Document-Object-Model)
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
