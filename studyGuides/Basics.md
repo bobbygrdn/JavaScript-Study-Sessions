@@ -4,31 +4,34 @@ Learning the basics is crucial when learning any programming language and to sta
 This documentation will walk you through the basics of JavaScript, The Command Line Interface(CLI), Git and Github.
 
 ## Table of Contents
-  * [Linking JavaScript to HTML](#linking-javascript-to-html)
-  * [Adding Pseudocode](#adding-pseudocode)
-  * [Methods to interact with the console](#methods-to-interact-with-the-console)
-  * [Data Types](#data-types)
-    + [Primitive Data Types](#primitive-data-types)
-    + [Non-Primitive Data Types](#non-primitive-data-types)
-  * [Variables](#variables)
-    + [Variable Types-Reassignment](#variable-types-reassignment)   
-    + [Scope](#scope)
-    + [Operators](#operators)
-    + [Loops](#loops)
-    + [Conditionals (Checks pieces of logic and returns a certain value if that condition is met)](#conditionals--checks-pieces-of-logic-and-returns-a-certain-value-if-that-condition-is-met-)
-    + [Basic Functions](#basic-functions)
-    + [Methods](#methods)
-    + [Concatenation (There are several ways to concat different elements, here are three great methods)](#concatenation--there-are-several-ways-to-concat-different-elements--here-are-three-great-methods-)
-    + [Statements (Statements are separated by ';' and are usually on seperate lines as well)](#statements--statements-are-separated-by-----and-are-usually-on-seperate-lines-as-well-)
-    + [Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)](#expressions--valid-sets-of-literals--variables--operators-and-expressions-that-evaluate-to-a-single-value-)
-  * [Command Line Interface (CLI) Commands](#command-line-interface--cli--commands)
-  * [Git & Github](#git---github)
-    + [Repositories (repos)](#repositories--repos-)
-    + [Git Commands](#git-commands)
-    + [GitHub Actions (Actions to take on GitHub to interact with remote repos)](#github-actions--actions-to-take-on-github-to-interact-with-remote-repos-)
+
+- [Linking JavaScript to HTML](#linking-javascript-to-html)
+- [Adding Pseudocode](#adding-pseudocode)
+- [Methods to interact with the console](#methods-to-interact-with-the-console)
+- [Data Types](#data-types)
+  - [Primitive Data Types](#primitive-data-types)
+  - [Non-Primitive Data Types](#non-primitive-data-types)
+- [Variables](#variables)
+  - [Variable Types-Reassignment](#variable-types-reassignment)
+  - [Scope](#scope)
+  - [Operators](#operators)
+  - [Loops](#loops)
+  - [Conditionals (Checks pieces of logic and returns a certain value if that condition is met)](#conditionals--checks-pieces-of-logic-and-returns-a-certain-value-if-that-condition-is-met)
+  - [Basic Functions](#basic-functions)
+  - [Methods](#methods)
+  - [Concatenation (There are several ways to concat different elements, here are three great methods)](#concatenation--there-are-several-ways-to-concat-different-elements--here-are-three-great-methods-)
+  - [Statements (Statements are separated by ';' and are usually on seperate lines as well)](#statements--statements-are-separated-by-----and-are-usually-on-seperate-lines-as-well-)
+  - [Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)](#expressions--valid-sets-of-literals--variables--operators-and-expressions-that-evaluate-to-a-single-value-)
+- [Command Line Interface (CLI) Commands](#command-line-interface--cli--commands)
+- [Git & Github](#git---github)
+  - [Repositories (repos)](#repositories--repos-)
+  - [Git Commands](#git-commands)
+  - [GitHub Actions (Actions to take on GitHub to interact with remote repos)](#github-actions--actions-to-take-on-github-to-interact-with-remote-repos-)
 
 ## Linking JavaScript to HTML
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
+
 ```javascript
 This is how it will look if you put your script in the body tag
 <!DOCTYPE html>
@@ -66,6 +69,7 @@ This is how it will look if you link your script in the body tag
 ```
 
 ## Adding Pseudocode
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ```javascript
@@ -80,6 +84,7 @@ This is how it will look if you link your script in the body tag
 ```
 
 ## Methods to interact with the console
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 console.log( ) -> Used to log statements to the console. Great for debugging code.
@@ -153,6 +158,7 @@ Number is too big!
 ```
 
 ## Data Types
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ### Primitive Data Types
@@ -283,6 +289,7 @@ numsArray[2]; -> 844
 ```
 
 ## Variables
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ### Variable Types-Reassignment
@@ -312,6 +319,7 @@ year = 2023;
 ```
 
 ### Scope
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### Block Scope (Can only be accessed inside the block they are created in)
@@ -372,6 +380,7 @@ console.log(i); -> This will console log 95469 since i is a global variable
 ```
 
 ### Operators
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### Increment Operator (Used to increase a given value. Used in loops and other methods.)
@@ -523,6 +532,7 @@ console.log(g) -> console logs 3 because we divided g by o
 ```
 
 ### Loops
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### For loop (Loops over an object or an array and enacts whatever code you input to each element)
@@ -647,6 +657,7 @@ Still going: 12
 ```
 
 ### Conditionals (Checks pieces of logic and returns a certain value if that condition is met)
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### If statement
@@ -695,6 +706,7 @@ This isnt high enough
 ```
 
 ### Basic Functions
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### Input/Parameters
@@ -759,6 +771,7 @@ anotherFunction() -> This line is calling/invoking the anotherFunction to be use
 ```
 
 ### Methods
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### String Methods
@@ -956,6 +969,7 @@ console.log(fillObject.C); -> console logs 82 because that is the value of 'C' t
 ```
 
 ### Concatenation (There are several ways to concat different elements, here are three great methods)
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### The + Operator (Adds the next element to the previous element using the + or += operator(s)))
@@ -991,6 +1005,7 @@ console.log(string2); -> console logs Hello World
 ```
 
 ### Statements (Statements are separated by ';' and are usually on seperate lines as well)
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ```javascript
@@ -1007,6 +1022,7 @@ arrayOfNumbers.pop(); -> Uses the pop method to remove the last element of the a
 ```
 
 ### Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ```javascript
@@ -1022,6 +1038,7 @@ which returns a value to concat on to the string
 ```
 
 ## Command Line Interface (CLI) Commands
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ### ls (list)
@@ -1176,6 +1193,7 @@ npm uninstall express
 ```
 
 ## Git & Github
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 ### Repositories (repos)
@@ -1189,6 +1207,7 @@ Remote repo
 ```
 
 ### Git Commands
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### clone (Used to clone remote repos down to your local machine)
@@ -1251,6 +1270,7 @@ git checkout branch_name
 ```
 
 ### GitHub Actions (Actions to take on GitHub to interact with remote repos)
+
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md#basics)
 
 #### Fork (Used to create a fork or copy of the selected remote repo and put that copy into your remote directory)
