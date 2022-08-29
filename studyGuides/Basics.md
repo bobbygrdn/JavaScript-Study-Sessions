@@ -19,7 +19,7 @@ This documentation will walk you through the basics of JavaScript, The Command L
   - [Conditionals (Checks pieces of logic and returns a certain value if that condition is met)](#conditionals-checks-pieces-of-logic-and-returns-a-certain-value-if-that-condition-is-met)
   - [Basic Functions](#basic-functions)
   - [Methods](#methods)
-  - [Concatenation (There are several ways to concat different elements, here are three great methods)](#concatenation--there-are-several-ways-to-concat-different-elements--here-are-three-great-methods-)
+  - [Concatenation (There are several ways to concat different elements, here are three great methods)](#concatenation--there-are-several-ways-to-concat-different-elements--here-are-three-great-methods)
   - [Statements (Statements are separated by ';' and are usually on seperate lines as well)](#statements--statements-are-separated-by-----and-are-usually-on-seperate-lines-as-well-)
   - [Expressions (valid sets of literals, variables, operators and expressions that evaluate to a single value)](#expressions--valid-sets-of-literals--variables--operators-and-expressions-that-evaluate-to-a-single-value-)
 - [Command Line Interface (CLI) Commands](#command-line-interface--cli--commands)
