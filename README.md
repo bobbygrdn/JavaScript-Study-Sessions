@@ -1,7 +1,12 @@
 JavaScript Study Sessions
 -------------------------
 
-This repo has two different sections, the resources directory and the studyGuides directory. Each one has many documents that you can use to help you learn, grow and become a better developer.
+This repo is a great resource you can use to better familiarize yourself with the basics of JavaScript and development. Using the study guides and resource links, you will be able to further progress your undertanding, adaptability and overall standing as a developer.
+
+### Table of Contents
+ * [Resources](https://github.com/bobbygrdn/JavaScript-Study-Sessions/tree/main/Resources)
+ * Study Guides
+    + [Basics](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/Basics.md)
 
 ⚡  As new study guides or resources get added, we will update this readme to reflect those changes.
 
