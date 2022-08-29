@@ -1,4 +1,4 @@
-![Document Object Model](../studyGuideImages/DOM.jpg)
+<img src="../studyGuideImages/DOM.jpg" width="200 />
 
 # Document Object Model (DOM)
 
