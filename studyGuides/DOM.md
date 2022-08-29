@@ -1,4 +1,6 @@
-<img src="../studyGuideImages/DOM.jpg" width="200 />
+<!-- <img src="../studyGuideImages/DOM.jpg" width="200 /> -->
+
+![Document Object Model](../studyGuideImages/DOM.jpg)
 
 # Document Object Model (DOM)
 
