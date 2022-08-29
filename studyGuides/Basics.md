@@ -1,3 +1,5 @@
+![JavaScript Basics](../studyGuideImages/JavaScript.jpg)
+
 # Basics
 
 Learning the basics is crucial when learning any programming language and to start your career as a developer. Building a solid foundation of knowlege in the fundamentals will help you learn more advanced technologies, frameworks and algorithms in the future.
