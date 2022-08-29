@@ -1,3 +1,5 @@
+![Document Object Model](../studyGuideImages/DOM.jpg)
+
 # Document Object Model (DOM)
 
 Learning the ability to interact with the DOM is an important step to becoming a Web Developer. This readme will help you along your journey in familiarizing yourself with the DOM, manipulation methods and the HTML Tree.
