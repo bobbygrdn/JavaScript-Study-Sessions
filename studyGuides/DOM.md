@@ -1,4 +1,4 @@
-<img src="https://github.com/bobbygrdn/JavaScript-Study-Sessions/raw/main/studyGuideImages/DOM.jpg" width="200 />
+![Document Object Model](../studyGuideImages/DOM.jpg)
 
 # Document Object Model (DOM)
 
