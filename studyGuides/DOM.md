@@ -1,4 +1,4 @@
-![Document Object Model]("../studyGuideImages/DOM.jpg" width=50% height=50%)
+![Document Object Model](../studyGuideImages/DOM.jpg)
 
 # Document Object Model (DOM)
 
