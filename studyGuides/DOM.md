@@ -6,10 +6,11 @@ Learning the ability to interact with the DOM is an important step to becoming a
 
 - [Document Object Model (DOM)](#document-object-model)
 - [Application Programming Interface (API)](#application-programming-interface-api)
-- [Querying Elements](#querying-elements)
-- [Modifying Elements](#modifying-elements)
-- [Creating Elements](#creating-elements)
-- [Inserting Elements](#inserting-elements)
+- [DOM ELements](#dom-elements)
+  - [Querying Elements](#querying-elements)
+  - [Modifying Elements](#modifying-elements)
+  - [Creating Elements](#creating-elements)
+  - [Inserting Elements](#inserting-elements)
 - [Event Listeners](#event-listeners)
 - [DOM Events](#dom-events)
 - [Query Selector](#query-selector)
@@ -20,13 +21,15 @@ Learning the ability to interact with the DOM is an important step to becoming a
 
 ## Application Programming Interface (API)
 
-## Querying Elements
+## DOM Elements
 
-## Modifying Elements
+### Querying Elements
 
-## Creating Elements
+### Modifying Elements
 
-## Inserting Elements
+### Creating Elements
+
+### Inserting Elements
 
 ## Event Listeners
 
