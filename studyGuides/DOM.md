@@ -64,7 +64,7 @@ Learning the ability to interact with the DOM is an important step to becoming a
 ![HTML Tree](../studyGuideImages/HTML-Tree.jpg)
 
 - Looking at this tree we can pull out the following information:
-  - The "html" tag becomes the root node
+  - The 'html' tag becomes the root node
   - It has 2 child nodes: 'head', 'body'
   - The 'head' node has a child node: 'title'
   - The 'body' node has 2 child nodes: 'h1', 'div'
