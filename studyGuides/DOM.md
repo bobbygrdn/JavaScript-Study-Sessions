@@ -19,6 +19,8 @@ Learning the ability to interact with the DOM is an important step to becoming a
 
 ## Document Object Model
 
+##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
+
 ![Document Object Model Tree](../studyGuideImages/DOM-Tree.jpg)
 
 #### What is the DOM?
@@ -69,8 +71,6 @@ Learning the ability to interact with the DOM is an important step to becoming a
   - The 'head' node has a child node: 'title'
   - The 'body' node has 2 child nodes: 'h1', 'div'
   - The 'div' node has a child node: 'p'
-
-##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
 
 ## Application Programming Interface (API)
 
