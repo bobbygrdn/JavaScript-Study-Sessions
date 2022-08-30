@@ -60,7 +60,8 @@ Learning the ability to interact with the DOM is an important step to becoming a
 ```
 
 - This Simple HTML page can be modeled in a tree that looks like this:
-  ![HTML Tree](../studyGuideImages/HTML-Tree.jpg)
+
+![HTML Tree](../studyGuideImages/HTML-Tree.jpg)
 
 - Looking at this tree we can pull out the following information:
   - The <html></html> tag becomes the root node
