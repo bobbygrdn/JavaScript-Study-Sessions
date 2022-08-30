@@ -64,11 +64,11 @@ Learning the ability to interact with the DOM is an important step to becoming a
 ![HTML Tree](../studyGuideImages/HTML-Tree.jpg)
 
 - Looking at this tree we can pull out the following information:
-  - The <html></html> tag becomes the root node
-  - It has 2 child nodes: <head></head>, <body></body>
-  - The <head></head> node has a child node: <title></title>
-  - The <body></body> node has 2 child nodes: <h1></h1>,<div></div>
-  - The <div></div> node has a child node: <p></p>
+  - The '<html></html>' tag becomes the root node
+  - It has 2 child nodes: '<head></head>, <body></body>'
+  - The '<head></head>' node has a child node: '<title></title>'
+  - The '<body></body>' node has 2 child nodes: '<h1></h1>,<div></div>'
+  - The '<div></div>' node has a child node: '<p></p>'
 
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
 
