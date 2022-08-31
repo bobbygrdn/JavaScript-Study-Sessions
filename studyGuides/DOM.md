@@ -101,7 +101,7 @@ Learning the ability to interact with the DOM is an important step to becoming a
 - There are five main ways to select elements using these selectors:
   document.getElementbyId( )
 
-```html
+```javascript
 <div id="newDiv">This is my new div.</div>
 
 let select = document.getElementbyId('newDiv'); console.log(select); -> This
@@ -110,7 +110,7 @@ will return the div with the id of 'newDiv'
 
 document.getElementsbyTagName( )
 
-```html
+```javascript
 <a href="https://www.google.com">Let's ask Google!</a>
 
 let item = document.getElementsbyTagName('a'); console.log(item); -> This will
@@ -120,7 +120,7 @@ return what is called an HTML Collection that looks like this: HTML Collection
 
 document.getElementsByClassName( )
 
-```html
+```javascript
 <div class="foostyle"></div>
 <div class="foostyle"></div>
 <div class="foostyle"></div>
@@ -132,7 +132,7 @@ let targets = document.getElementsByClassName('foostyle'); console.log(targets);
 
 document.querySelector( )
 
-```html
+```javascript
 <a href="https://www.google.com">Let's ask Google!</a>
 
 let target = document.querySelector('a'); console.log(target); -> This will
@@ -141,7 +141,7 @@ return the anchor element that shown above.
 
 document.querySelectorAll( )
 
-```html
+```javascript
 <div class="foostyle"></div>
 <div class="foostyle"></div>
 <div class="foostyle"></div>
