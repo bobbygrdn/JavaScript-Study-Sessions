@@ -15,7 +15,6 @@ Learning the ability to interact with the DOM is an important step to becoming a
   - [Inserting Elements](#inserting-elements)
 - [Event Listeners](#event-listeners)
 - [DOM Events](#dom-events)
-- [Query Selector](#query-selector)
 
 ## Document Object Model
 
@@ -76,13 +75,81 @@ Learning the ability to interact with the DOM is an important step to becoming a
 
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
 
+#### What is an API?
+
+- An Application Programming Interface (API) is a set of features and rules that exist inside a software program enabling interaction with it through software as opposed to a human user interface.
+- In contrast to a User Interface, which connects a computer to a person, an API connects computers or pieces of software to each other.
+- APIs are not intended for direct use by a person or user, but instead be built, manipulated and used by a computer programmer.
+- Web Developers use APIs to get the User Interface to talk to the Database of the application.
+
 ## DOM Elements
 
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
 
+##### What are DOM elements?
+
+- DOM elements are html tags represented by nodes and objects that can be manipulated using the DOM API.
+- This allows us as programmers to manipulate the HTML Tree by selecting, modifying, creating and inserting elements in or into the tree.
+
 ### Querying Elements
 
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
+
+#### How do you query or select a DOM element?
+
+- DOM elements can be selected by using CSS selectors in the form of strings.
+- There are five main ways to select elements using these selectors:
+  document.getElementbyId( )
+
+```html
+<div id="newDiv">This is my new div.</div>
+
+let select = document.getElementbyId('newDiv'); console.log(select); -> This
+will return the div with the id of 'newDiv'
+```
+
+document.getElementsbyTagName( )
+
+```html
+<a href="https://www.google.com">Let's ask Google!</a>
+
+let item = document.getElementsbyTagName('a'); console.log(item); -> This will
+return what is called an HTML Collection that looks like this: HTML Collection
+[a]
+```
+
+document.getElementsByClassName( )
+
+```html
+<div class="foostyle"></div>
+<div class="foostyle"></div>
+<div class="foostyle"></div>
+
+let targets = document.getElementsByClassName('foostyle'); console.log(targets);
+-> This will return an HTML Collection that looks like this: HTML Collection(3)
+[div.foostyle, div.foostyle, div.foostyle]
+```
+
+document.querySelector( )
+
+```html
+<a href="https://www.google.com">Let's ask Google!</a>
+
+let target = document.querySelector('a'); console.log(target); -> This will
+return the anchor element that shown above.
+```
+
+document.querySelectorAll( )
+
+```html
+<div class="foostyle"></div>
+<div class="foostyle"></div>
+<div class="foostyle"></div>
+
+let targets = document.querySelectorAll('.foostyle'); console.log(targets); ->
+This will return a Node List that looks like this: NodeList(3) [div.foostyle,
+div.foostyle, div.foostyle]
+```
 
 ### Modifying Elements
 
@@ -101,9 +168,5 @@ Learning the ability to interact with the DOM is an important step to becoming a
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
 
 ## Event Listeners
-
-##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
-
-## Query Selector
 
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
