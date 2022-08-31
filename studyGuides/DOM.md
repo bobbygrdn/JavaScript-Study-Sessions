@@ -104,8 +104,9 @@ Learning the ability to interact with the DOM is an important step to becoming a
 ```javascript
 <div id="newDiv">This is my new div.</div>
 
-let select = document.getElementbyId('newDiv'); console.log(select); -> This
-will return the div with the id of 'newDiv'
+let select = document.getElementbyId('newDiv');
+
+console.log(select); -> This will return the div with the id of 'newDiv'
 ```
 
 document.getElementsbyTagName( )
@@ -113,9 +114,10 @@ document.getElementsbyTagName( )
 ```javascript
 <a href="https://www.google.com">Let's ask Google!</a>
 
-let item = document.getElementsbyTagName('a'); console.log(item); -> This will
-return what is called an HTML Collection that looks like this: HTML Collection
-[a]
+let item = document.getElementsbyTagName('a');
+
+console.log(item); -> This will return what is called an HTML Collection that looks like this:
+HTML Collection [a]
 ```
 
 document.getElementsByClassName( )
@@ -125,9 +127,10 @@ document.getElementsByClassName( )
 <div class="foostyle"></div>
 <div class="foostyle"></div>
 
-let targets = document.getElementsByClassName('foostyle'); console.log(targets);
--> This will return an HTML Collection that looks like this: HTML Collection(3)
-[div.foostyle, div.foostyle, div.foostyle]
+let targets = document.getElementsByClassName('foostyle');
+
+console.log(targets); -> This will return an HTML Collection that looks like this:
+HTML Collection(3) [div.foostyle, div.foostyle, div.foostyle]
 ```
 
 document.querySelector( )
@@ -135,8 +138,9 @@ document.querySelector( )
 ```javascript
 <a href="https://www.google.com">Let's ask Google!</a>
 
-let target = document.querySelector('a'); console.log(target); -> This will
-return the anchor element that shown above.
+let target = document.querySelector('a');
+
+console.log(target); -> This will return the anchor element that shown above.
 ```
 
 document.querySelectorAll( )
@@ -146,9 +150,10 @@ document.querySelectorAll( )
 <div class="foostyle"></div>
 <div class="foostyle"></div>
 
-let targets = document.querySelectorAll('.foostyle'); console.log(targets); ->
-This will return a Node List that looks like this: NodeList(3) [div.foostyle,
-div.foostyle, div.foostyle]
+let targets = document.querySelectorAll('.foostyle');
+
+console.log(targets); -> This will return a Node List that looks like this:
+NodeList(3) [div.foostyle, div.foostyle, div.foostyle]
 ```
 
 ### Modifying Elements
