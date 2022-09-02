@@ -140,7 +140,7 @@ document.querySelector( )
 
 let target = document.querySelector('a');
 
-console.log(target); -> This will return the anchor element that shown above.
+console.log(target); -> This will return the anchor element that is shown above.
 ```
 
 document.querySelectorAll( )
@@ -159,6 +159,105 @@ NodeList(3) [div.foostyle, div.foostyle, div.foostyle]
 ### Modifying Elements
 
 ##### [Back to Top](https://github.com/bobbygrdn/JavaScript-Study-Sessions/blob/main/studyGuides/DOM.md#Document-Object-Model)
+
+#### What all can you do to DOM elements?
+
+- There are many ways you can manipulate DOM elements to get the desired effect or look you want in your webpage.
+
+- Here are some main ways you might want to manipulate your DOM elements:
+  Setting an element's text
+
+```javascript
+element.textContent
+
+// If we have an HTML element that looks like this:
+<div id="myText">I have some text here</div>
+
+// We can run this JavaScript to change the text of that element
+let node = document.querySelector("#myText");
+
+node.textContent = 'This is my new text I wanted to add!!';
+
+console.log(node); -> This will return a statement that looks like this:
+<div id="myText">This is my new text I wanted to add!!</div>
+// Notice that the text has changed for the div
+
+element.innerText
+
+// If we have an HTML element that looks like this:
+<h1>This is our title</h1>
+
+// We can run this JavaScript to change the text of that element
+let select = document.querySelector('h1');
+
+select.innerText = 'I want this title instead';
+
+console.log(select); -> This will return a statement that looks like this:
+<h1>I want this title instead</h1>
+// Notice that the text has changed for the h1
+```
+
+Working with Attributes
+
+```javascript
+element.attributes
+
+// If we have an HTML element that looks like this:
+<div id="someElem">A bit of text in here</div>
+
+// We can run this JavaScript to view the attributes for the given element
+let elem = document.getElementbyId('someElem');
+
+console.log(elem.attributes); -> This will return a statement that looks like this:
+NamedNodeMap {0: id, id: id, length: 1}
+// This is an attributes object that shows us all the attributes of the given element
+```
+
+Working with Styles
+
+```javascript
+element.style.property = new style
+
+// If we have an HTML element that looks like this:
+<p id="para">Hello World!!</p>
+
+// We can run this JavaScript to change the styling of this element
+let myParagraph = document.getElementbyId('para');
+
+myParagraph.style.color = 'blue';
+// This will change the color of the text to blue
+
+myParagraph.style.textDecoration = 'underline';
+// This will add a line underneath the text
+
+myParagraph.style.textAlign = 'center';
+// This will align my text to the center of the page or parent element it is inside
+```
+
+Working with classes & Ids
+
+- There are 3 ways we can interact with classes and Ids of our DOM elements:
+  - className or id
+  - classList
+  - attributes
+
+##### className or id
+
+```javascript
+element.className
+element.classList.add(CLASSNAME, ANOTHERCLASSNAME, ONEMORECLASSNAME)
+element.classList.contains(CLASSNAME)
+element.classList.remove(CLASSNAME)
+element.classList.replace(CLASSNAME, ANOTHERCLASSNAME)
+element.classList.toggle(CLASSNAME)
+element.setAttribute('class', CLASSNAME ANOTHERCLASSNAME)
+```
+
+Working wih Data-Attributes
+
+```javascript
+
+```
 
 ### Creating Elements
 
