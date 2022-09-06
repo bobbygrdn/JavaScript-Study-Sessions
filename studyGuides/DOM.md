@@ -253,8 +253,6 @@ element.classList.toggle(CLASSNAME)
 element.setAttribute('class', CLASSNAME ANOTHERCLASSNAME)
 ```
 
-![Test](../studyGuideVideos/test.mov)
-
 Working wih Data-Attributes
 
 ```javascript
