@@ -245,7 +245,7 @@ Working with classes & Ids
 
 ```javascript
 // Let's start with an HTML element that looks like this
-<div class="first"></div>
+<div id="div" class="first"></div>
 
 // Now let's query this element
 let ourDiv = document.querySelector('.first');
@@ -288,8 +288,8 @@ element.classList.remove(CLASSNAME)
 ourDiv.classList.remove('darkMode')
 
 console.log(ourDiv); -> This will return a statement that looks like this:
-<div class="second">I see the light!!</div>
-// Notice how the class name DarkMode has been removed and the text has updated as well
+<div class="second">Going Dark!!</div>
+// Notice how the class name DarkMode has been removed
 
 element.classList.replace(CLASSNAME, ANOTHERCLASSNAME)
 
@@ -297,7 +297,7 @@ element.classList.replace(CLASSNAME, ANOTHERCLASSNAME)
 ourDiv.classList.replace('second', 'first');
 
 console.log(ourDiv); -> This will return a statement that looks like this:
-<div class="first">I see the light!!</div>
+<div class="first">Going Dark!!</div>
 // Notice the change in the class for our div
 
 element.classList.toggle(CLASSNAME)
@@ -307,7 +307,7 @@ ourDiv.classList.toggle('darkMode');
 
 console.log(ourDiv); -> This will return a statement that looks like this:
 <div class="first darkMode">Going Dark!!</div>
-// Notice how the darkMode class has been added and that caused our text to change
+// Notice how the darkMode class has been added
 
 element.setAttribute('class', CLASSNAME ANOTHERCLASSNAME)
 
@@ -317,12 +317,6 @@ ourDiv.setAttribute('class', 'second darkMode');
 console.log(ourDiv); -> This will return a statement that looks like this:
 <div class="second darkMode">Going Dark!!</div>
 // Notice how the class names have changed from first darkMode to second darkMode
-```
-
-Working wih Data-Attributes
-
-```javascript
-
 ```
 
 ### Creating Elements
