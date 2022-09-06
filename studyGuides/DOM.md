@@ -244,13 +244,79 @@ Working with classes & Ids
 ##### className or id
 
 ```javascript
+// Let's start with an HTML element that looks like this
+<div class="first"></div>
+
+// Now let's query this element
+let ourDiv = document.querySelector('.first');
+
+// Now that we have access to the element, let's start using it
 element.className
+
+// We can run this JavaScript to change the class name of our HTML element
+ourDiv.className = 'second'
+
+console.log(ourDiv); -> This will return a statement that looks like this:
+<div class="second"></div>
+// Notice the change in the class of the HTML element
+
 element.classList.add(CLASSNAME, ANOTHERCLASSNAME, ONEMORECLASSNAME)
+
+// We can run this JavaScript to add class names to our div so we can further change the styling
+ourDiv.classList.add('second', 'darkMode');
+
+console.log(ourDiv); -> This will return a statement that looks like this:
+<div class="second darkMode"></div>
+// We can see that there are now two classes on this same div which we can use to interact with this element in different ways
+
 element.classList.contains(CLASSNAME)
+
+// We can run this JavaScript to change the text of each element based off of there class name
+if(ourDiv.classList.contains('darkMode')) {
+    ourDiv.textContent = 'Going Dark!!'
+} else {
+    ourDiv.textContent = 'I see the light!!'
+}
+
+console.log(ourDiv); -> This returns a statement that looks like this:
+<div class="second darkMode">Going Dark!!</div>
+// Notice how the text content to the div has changed based on the JavaScript we wrote above
+
 element.classList.remove(CLASSNAME)
+
+// We can run this JavaScript to change the classNames that are on our div
+ourDiv.classList.remove('darkMode')
+
+console.log(ourDiv); -> This will return a statement that looks like this:
+<div class="second">I see the light!!</div>
+// Notice how the class name DarkMode has been removed and the text has updated as well
+
 element.classList.replace(CLASSNAME, ANOTHERCLASSNAME)
+
+// We can run this JavaScript to change the className on our div
+ourDiv.classList.replace('second', 'first');
+
+console.log(ourDiv); -> This will return a statement that looks like this:
+<div class="first">I see the light!!</div>
+// Notice the change in the class for our div
+
 element.classList.toggle(CLASSNAME)
+
+// We can run this JavaScript to toggle the class name of our div
+ourDiv.classList.toggle('darkMode');
+
+console.log(ourDiv); -> This will return a statement that looks like this:
+<div class="first darkMode">Going Dark!!</div>
+// Notice how the darkMode class has been added and that caused our text to change
+
 element.setAttribute('class', CLASSNAME ANOTHERCLASSNAME)
+
+// We can run this JavaScript to change the classes on our div element
+ourDiv.setAttribute('class', 'second darkMode');
+
+console.log(ourDiv); -> This will return a statement that looks like this:
+<div class="second darkMode">Going Dark!!</div>
+// Notice how the class names have changed from first darkMode to second darkMode
 ```
 
 Working wih Data-Attributes
