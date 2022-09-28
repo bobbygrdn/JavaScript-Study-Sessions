@@ -54,7 +54,7 @@ This is how it will look if you put your script in the body tag
 ```
 
 ```javascript
-This is how it will look if you link your script in the body tag
+This is how it will look if you link your script in the head tag
 <!DOCTYPE html>
 <html lang="en">
 <head>
